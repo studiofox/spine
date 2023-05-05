@@ -61,7 +61,7 @@ window.addEventListener("resize", () => {
 });
 
 // adding Ambient Light to the scene
-const light = new THREE.AmbientLight(0xffffff, 1.5, 1000) ;
+const light = new THREE.AmbientLight(0xffffff, 0.8, 1000) ;
 scene.add(light);
 console.log(light);
 
